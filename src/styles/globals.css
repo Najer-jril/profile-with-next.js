@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
@@ -6,6 +6,17 @@
 }
 
 @theme inline {
+  --color-darkbg: #222222;
+  --color-lightbg: #EEEEEE;
+  --color-footerbg: #212121;
+
+  --color-header-text: #e6e6e6;
+  --color-header-text-hover: #ffffff;
+
+  --color-base: #212121; /* color for the text light bg */
+  --color-light1: #EFEEEA; /* Alabaster color for text dark bg */
+  --color-light2: #EFEFEF; /* Dirty white color for text dark bg */
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
