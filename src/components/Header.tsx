@@ -9,7 +9,7 @@ export default function Header() {
                     <Link href="#about" className="text-header-text hover:underline hover:text-header-text-hover">
                         About
                     </Link>
-                    <Link href="/projects" className="text-header-text hover:underline hover:text-header-text-hover">
+                    <Link href="/#projects" className="text-header-text hover:underline hover:text-header-text-hover">
                         Projects
                     </Link>
                     <Link href="#contact" className="text-header-text hover:underline hover:text-header-text-hover">
